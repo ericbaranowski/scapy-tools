@@ -1,0 +1,15 @@
+# PythonScapy
+
+We can  get Whois information (domain information) from  Python code.
+
+pip install python-whois  (who is package installation).
+>>>   import whois
+>>> 
+>>>   w = whois.whois('domain-name')
+ 
+>>>   print w (shows the outpur)
+>>>  w.emails      (find out the particular information)
+>>>  w.city
+>>>  w.country
+>>>  w.address
+ 
